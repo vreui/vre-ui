@@ -1,0 +1,19 @@
+[package]
+name = "vreui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[features]
+# 默认为桌面平台
+default = ["dt"]
+
+# Android 平台
+apk = []
+# 桌面平台 (GNU/Linux)
+dt = []
+# web 平台
+web = []

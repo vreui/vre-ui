@@ -1,11 +1,11 @@
 # vre-ui
 <https://github.com/vreui/vre-ui>
 
-[![CI](https://github.com/vreui/vre-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/vreui/vre-ui/actions)
-
 威惹: 框架 (应用代码, wasm)
 
-+ 威惹文档 <https://github.com/vreui/vre-doc>
+[![CI](https://github.com/vreui/vre-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/vreui/vre-ui/actions)
+
+文档请见: <https://github.com/vreui/vre-doc>
 
 
 ## cargo features

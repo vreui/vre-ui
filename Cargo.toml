@@ -11,12 +11,22 @@ repository = "https://github.com/vreui/vre-ui"
 [dependencies]
 
 [features]
-# 默认为桌面平台
-default = ["dt"]
+# 默认为 wayland 平台
+default = ["wayland", "wr"]
 
+# 使用 WebRender (OpenGL/ES) 渲染 (GNU/Linux, Android, Windows)
+wr = []
+# 使用浏览器 CSS+HTML 渲染 (布局) (web)
+bc = []
+
+# 组件代理模式
+proxy = []
+
+# wayland 平台 (GNU/Linux)
+wayland = []
 # Android 平台
-apk = []
-# 桌面平台 (GNU/Linux)
-dt = []
+android = []
+# windows 平台
+windows = []
 # web 平台
 web = []
